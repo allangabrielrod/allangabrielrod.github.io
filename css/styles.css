@@ -1,0 +1,135 @@
+* {
+  font-family: nunito, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  letter-spacing: 1.5;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+.nav-item {
+  font-weight: bold;
+}
+
+#about,
+#tools,
+#projects,
+#contact,
+.contact-links {
+  padding: 7% 10%;
+}
+
+.header-section,
+#about,
+#projects,
+#footer {
+  color: white;
+  background-color: #040008;
+}
+
+.header-section,
+.buttons,
+#contact,
+#footer {
+  text-align: center;
+}
+
+#tools,
+#contact,
+.contact-links a {
+  color: #040008;
+}
+
+#header {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#top-background {
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-container {
+  padding: 4% 10%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Caveat", cursive;
+}
+
+.nav-item {
+  margin: 0 12px;
+  font-size: 1.2rem;
+  transition: linear 0.1s;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid white;
+}
+
+.btn {
+  margin: 0 3px;
+}
+
+.header-section {
+  margin: auto 0;
+  background: none;
+}
+
+#about img {
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+#tools img {
+  width: 150px;
+  padding: 3%;
+}
+
+.card {
+  width: 70%;
+  padding: 2% 0;
+  background: none;
+}
+
+.contact-links a {
+  margin: 30px 50px;
+}
+
+.carousel {
+  padding: 7% auto;
+}
+
+#footer {
+  padding: 2% 10%;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  #about {
+    text-align: center;
+  }
+}
